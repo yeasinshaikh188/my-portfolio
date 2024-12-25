@@ -1,14 +1,28 @@
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
 
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Particle from './components/Particle'
+import About from './components/About'
+import Projects from './Projects'
+import Testimonials from './Testimonials'
+import Contact from './components/Contact'
+import Footer from './Footer'
 
-function App() {
+const App = () => {
   return (
     <>
     <Navbar/>
-    <Hero/>
+      <Particle/>
+      <Hero/>
+      <About/>
+      <Projects/>
+      <Testimonials/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }
 
 export default App
+
+
