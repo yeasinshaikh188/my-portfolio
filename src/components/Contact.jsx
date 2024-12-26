@@ -4,8 +4,27 @@ import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import Lottie from 'lottie-react'
 import contact from '../assets/Contact.json'
+import emailjs from '@emailjs/browser'
+import { useRef } from 'react'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+    .sendForm('service_67hg3hc', 'template_nx65mdg', form.current, '-NqujA1MUK8TEit6S')
+    .then(
+      () => {
+        console.log('SUCCESS!');
+      },
+      (error) => {
+        console.log('FAILED...', error.text);
+      }
+    );
+  
+  };
   return (
     <section id='contact' className='z-50 bg-gray-800 relative py-10 px-5 md:px-0'>
       <div className='mb-16 max-w-7xl mx-auto'>
@@ -23,7 +42,7 @@ const Contact = () => {
               </div>
                 <Lottie animationData={contact} className='w-[350px] mx-auto lg:w-[500px]'/>
             </div>
-            <form className='w-full md:w-1/2 bg-gray-100 rounded-lg border border-red-300 shadow-lg shadow-red-500 p-10'> 
+            <form ref={form} onSubmit={sendEmail} className='w-full md:w-1/2 bg-gray-100 rounded-lg border border-red-300 shadow-lg shadow-red-500 p-10'> 
               <h1 className='text-gray-900 text-4xl font-bold mb-7'>Contact Me</h1>
               <div className='mb-4'>
                 <label htmlFor="name" className='block text-sm font-medium text-gray-700'>Name</label>
