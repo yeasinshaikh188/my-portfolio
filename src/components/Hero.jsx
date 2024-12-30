@@ -1,4 +1,4 @@
-import hero from '../assets/Hero.png';
+import hero from "../assets/Hero.png"
 import facebook from '../assets/facebook.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
@@ -6,7 +6,6 @@ import linkedin from '../assets/linkedin.png';
 import reactLogo from '../assets/React.png';
 import htmlLogo from '../assets/html.png';
 import cssLogo from '../assets/css.png';
-// import jsLogo from "../assets/JS"
 import jsLogo from "../assets/JS.png"
 
 const Hero = () => {
