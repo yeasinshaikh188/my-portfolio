@@ -4,7 +4,7 @@ import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
 import linkedin from '../assets/linkedin.png';
 import reactLogo from '../assets/React.png';
-import htmlLogo from '../assets/html.png';
+import htmlLogo from '../assets/Html.png';
 import cssLogo from '../assets/css.png';
 import jsLogo from "../assets/JS.png"
 
