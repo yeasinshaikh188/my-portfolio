@@ -1,4 +1,3 @@
-// import hero from "../assets/Hero.png"
 import facebook from '../assets/facebook.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
@@ -16,11 +15,11 @@ const Hero = () => {
           <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10">
             <h1 className="lg:text-7xl text-4xl font-bold lg:leading-snug">
               Hi There, <br />
-              I'm Yeasin <span className="text-red-500">Shaikh</span>
+              I&apos;m Yeasin <span className="text-red-500">Shaikh</span>
             </h1>
             <p className="md:text-2xl text-xl mb-4">Web Developer</p>
             <p className="mb-4">
-              I'm a passionate web developer with expertise in React, and modern web technologies. I love creating beautiful and functional websites that solve real-world problems.
+              I&apos;m a passionate web developer with expertise in React, and modern web technologies. I love creating beautiful and functional websites that solve real-world problems.
             </p>
             <button className="bg-black text-white px-3 py-2 w-max rounded-md hover:bg-gray-800 transition">
               <a
