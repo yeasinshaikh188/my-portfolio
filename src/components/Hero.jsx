@@ -1,4 +1,4 @@
-import hero from "../assets/Hero.png"
+// import hero from "../assets/Hero.png"
 import facebook from '../assets/facebook.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
@@ -59,7 +59,7 @@ const Hero = () => {
             </div>
             {/* Hero Image */}
             <img
-              src={hero}
+              src="/Hero.png"
               alt="Hero"
               className="lg:h-[90vh] h-96 z-10 relative"
             />

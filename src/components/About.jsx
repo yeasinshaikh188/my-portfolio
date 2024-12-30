@@ -46,7 +46,6 @@ const About = () => {
                                         <img src={ReactLogo} alt="" className='w-8 rounded-full' />
                                         <span className='font-semibold'>React</span>
                                     </div>
-                                  
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
                                         <img src={Tailwind} alt="" className='w-8 rounded-full' />
                                         <span className='font-semibold'>Tailwind Css</span>
@@ -55,7 +54,6 @@ const About = () => {
                                         <img src={Bootstrap} alt="" className='w-10' />
                                         <span className='font-semibold'>Bootstrap</span>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
