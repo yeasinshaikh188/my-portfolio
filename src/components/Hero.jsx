@@ -23,7 +23,7 @@ const Hero = () => {
             </p>
             <button className="bg-black text-white px-3 py-2 w-max rounded-md hover:bg-gray-800 transition">
               <a
-                href="https://docs.google.com/document/d/1k_PZVpGyJ_1KvjYzOz2ew5Ril-A1MURm5K2yrMqE_HU/edit?tab=t.0"
+                href="/resume.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
